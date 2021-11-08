@@ -12,7 +12,8 @@ opkg install lsof &&
 opkg install stunnel && 
 opkg install --force-depends *.ipk &&
 opkg install httping fping screen python python3 coreutils-nohup libevent2 redsocks
-https://raw.githubusercontent.com/dsantos3526/sshssl/main/stl/stl.sh
+
+#Download 
 wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/sshssl/main/stl/stl.sh" -O /usr/bin/stl
 wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/sshssl/main/stl/gproxy.sh" -O /usr/bin/gproxy
 wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/sshssl/main/stl/autorekonek-stl.sh" -O /usr/bin/autorekonek-stl
